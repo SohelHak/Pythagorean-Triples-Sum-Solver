@@ -9,19 +9,29 @@ The Pythagorean theorem states that in a right-angled triangle, the square of th
 ## Installation
 
 1. **Clone the repository:**
-   i. **Termux**
+   
+   **Termux:**
    ```bash
    pkg install git
    git clone https://github.com/SohelHaq/pythagorean-triplet-checker.git
    cd pythagorean-triplet-checker
    pip install -r requirement.txt
+   python main.py
    ```
-    ii. **cmd**
+    **cmd**
     ```bash
     git clone https://github.com/SohelHaq/pythagorean-triplet-checker.git
     cd pythagorean-triplet-checker
     pip install -r requirement.txt
     ```
+    **Linux:**
+   ```bash
+   apt install python python3 git -y
+   git clone https://github.com/SohelHaq/pythagorean-triplet-checker.git
+   cd pythagorean-triplet-checker
+   pip install requirement.txt
+   python main.py
+   ```
 
 3. **Install necessary dependencies:**
 
@@ -30,7 +40,10 @@ The Pythagorean theorem states that in a right-angled triangle, the square of th
     ```bash
     pip install -r requirements.txt
     ```
-
+    **If It's not work use this**
+   ```bash
+    pip3 install -r requirements.txt
+    ```
 ## Usage
 
 To use this program:
