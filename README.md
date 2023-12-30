@@ -18,7 +18,7 @@ The Pythagorean theorem states that in a right-angled triangle, the square of th
    pip install -r requirement.txt
    python main.py
    ```
-    **cmd**
+   **cmd**
     ```bash
     git clone https://github.com/SohelHaq/pythagorean-triplet-checker.git
     cd pythagorean-triplet-checker
