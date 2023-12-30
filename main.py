@@ -45,7 +45,7 @@ while Options:
 							clear()
 							print(f"""
 Question: ({a},{b},{c})
-{Question}
+
 Answer:{Fore.GREEN}
 	{Question[0]}² = {Question[0]**2} ------- (1)
 	{Question[1]}² + {Question[2]}² = {Question[1]**2} = {Question[1]**2 + Question[2]**2} ----- (2)
@@ -60,9 +60,9 @@ sum of the squares of the other two numbers.
 
 						else:
 							clear()
-							print(
-f"""Question: ({a},{b},{c})
-{Question}
+							print(f"""
+Question: ({a},{b},{c})
+
 Answer:{Fore.YELLOW}
 	{Question[0]}² = {Question[0]**2} ------- (1)
 	{Question[1]}² + {Question[2]}² = {Question[1]**2} = {Question[1]**2 + Question[2]**2} ----- (2)
