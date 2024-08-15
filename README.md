@@ -13,7 +13,7 @@ The Pythagorean theorem states that in a right-angled triangle, the square of th
    **Termux:**
    ```bash
    pkg install git
-   git clone https://github.com/SohelHaq/pythagorean-triplet-checker.git
+   git clone https://github.com/SohelHak/Pythagorean-Triples-Sum-Solver
    cd pythagorean-triplet-checker
    pip install -r requirement.txt
    python main.py
